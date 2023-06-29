@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 2rem;
+display: flex;
+min-height: 100vh;
+ 
+}
+
+.fortune {
+  background-color: white;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  max-width: 500px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  text-align: justify;
+  margin-top: 20px;
+  
+}
+
+
+
+.fortune .author-information {
+  
+  text-align: left;
+  padding-left: 12rem;
+  margin-bottom: 1rem;
+  padding-top: 5rem;
+  
+
+
+}
+
+button {
+  background-color: white;
+  padding: 0.5rem 1rem;
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  margin-top: 1rem;
+  display: flex;
+  font-size: large;
+  align-items: center;
+  margin-left: 120px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.image-background{
+  display: flex;
+  width: 50px;
+  height: 350px;
+  position: relative;
+  left: 600px;
+  float: left;
+
+  top: 180px;
+  background-color: white;
+  text-align: center;
+
+  max-height: 500px;
+  max-width: 500px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  text-align: justify;
+  
+    
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+

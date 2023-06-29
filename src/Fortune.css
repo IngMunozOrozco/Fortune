@@ -1,0 +1,43 @@
+.fortune-cookie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    padding-top: -20rem;
+  }
+  
+  .cookie-wrapper {
+      display: flex;
+      width: 200px;
+      height: 150px;
+      position: relative;
+
+  
+    }
+    
+    .cookie-wrapper img {
+  
+      width: 50%;
+      height: 100%;
+      position: relative;
+      top: 0;
+      left: -100px;
+      transition: transform 3s;
+      z-index: 1;
+    }
+    
+    .cookie-wrapper img:first-child {
+      margin-right: -20px;
+      z-index: 2;
+    }
+  
+  .separated {
+    transform: translateX(20px) rotate(-20deg);
+  }
+  
+  .left-separated {
+    transform: translateX(-20px) rotate(20deg);
+  }
+
+  
