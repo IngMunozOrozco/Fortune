@@ -62,8 +62,8 @@ const App = () => {
       <div className="fortune-cookie">
       
         <div className="cookie-wrapper">
-          <img id="leftHalf" src="src\assets\images\galleta1.png" alt="Mitad izquierda" />
-          <img id="rightHalf" src="src\assets\images\galleta2.png" alt="Mitad derecha" />
+          <img id="leftHalf" src="galleta1.png" alt="Mitad izquierda" />
+          <img id="rightHalf" src="galleta2.png" alt="Mitad derecha" />
         </div>
         <button onClick={changeUser}>
         
